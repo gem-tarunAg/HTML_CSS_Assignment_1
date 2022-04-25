@@ -21,7 +21,7 @@ h1{
     text-decoration:wavy
 }
 
-div{
+#Form{
     z-index: 0;
     position: relative;
     float: initial;  
@@ -30,6 +30,11 @@ div{
     /* margin-top:100px;  */
     padding-top: 100px;
 } 
+
+a{
+    display: flex;
+    justify-content: center;
+}
 
 table{
     position: relative;
