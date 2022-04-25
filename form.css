@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(224, 219, 249);
+    margin: 0px;
+    padding: 0px;
+}
+header{ 
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(89, 70, 208);
+    z-index: 1;
+}
+
+h1{
+    font-family: Calibri; 
+    font-size: 25pt;         
+    font-style: normal; 
+    font-weight: bold; 
+    color: white;
+    text-align: center; 
+    text-decoration:wavy
+}
+
+div{
+    z-index: 0;
+    position: relative;
+    float: initial;  
+    display: flex;
+    justify-content: center;
+    /* margin-top:100px;  */
+    padding-top: 100px;
+} 
+
+table{
+    position: relative;
+    font-family: Calibri; 
+    color:white; 
+    font-size: 17pt; 
+    font-style: normal;
+    font-weight: bold;
+    background-color: rgb(153, 141, 232);  
+    border: 2px solid rgb(89, 70, 208);
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }

@@ -1,0 +1,21 @@
+body{
+    background-color:rgb(153, 141, 232);  
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    font-family: Calibri;
+    color:white;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    font-family: Calibri; 
+    color:white;
+}
+
+table{
+    border-radius: 2px;
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Registration form</title>
+        <link rel="stylesheet" href="form.css">
+    </head>
+    <body>
+        <header>
+            <h1>Student Registration Form</h1>
+        </header>
+        <div>
+            <form >
+                <table align="center" cellpadding = "10">
+    
+                    <!-- Name -->
+                    <tr>
+                        <td>NAME</td>
+                        <td>
+                            <input type="text" name="Name" maxlength="30"/>
+                            
+                        </td>
+                    </tr>
+
+                    <!-- Father's Name -->
+                    <tr>
+                        <td>FATHER NAME</td>
+                        <td>
+                            <input type="text" name="Father_Name" maxlength="30"/>
+                            
+                        </td>
+                    </tr>
+
+
+                    <!-- Mother's Name -->
+                    <tr>
+                        <td>MOTHER NAME</td>
+                        <td>
+                            <input type="text" name="Mother_Name" maxlength="30"/>
+                        </td>
+                    </tr>
+                    
+                    
+                    <!-- Email Id -->
+                    <tr>
+                        <td>EMAIL ID</td>
+                        <td><input type="email" name="Email_Id" maxlength="100" /></td>
+                    </tr>
+                    
+                    <!-- Mobile Number -->
+                    <tr>
+                        <td>MOBILE NUMBER</td>
+                        <td>
+                            <input type="number" name="Mobile_Number" maxlength="10" />
+                        </td>
+                    </tr>
+
+                    <!-- Date of Birth -->
+                    <tr>
+                        <td>DATE OF BIRTH</td>
+                        <td>
+                            <input type="date" name="Date_Of_Birth">
+                        </td>
+                    </tr>
+
+                    <!-- Address -->
+                    <tr>
+                        <td>ADDRESS <br /><br /><br /></td>
+                        <td><textarea name="Address" rows="4" cols="30"></textarea></td>
+                    </tr>
+                    
+                    <!-- Gender -->
+                    <tr>
+                        <td>GENDER</td>
+                        <td>
+                            Male <input type="radio" name="Gender" value="Male" />
+                            Female <input type="radio" name="Gender" value="Female" />
+                            Other <input type="radio" name="Gender" value="Other" />
+                        </td>
+                    </tr>
+                    
+                    <!-- Blood Group -->
+                    <tr>
+                        <td>BLOOD GROUP</td>
+                        <td>
+                            <select name="Blood_Group" id="Blood_Group">
+                                <option value="A-positive">A+</option>
+                                <option value="A-negative">A-</option>
+                                <option value="B-positive">B+</option>
+                                <option value="B-negative">B-</option>
+                                <option value="O-positive">O+</option>
+                                <option value="O-negative">O-</option>
+                                <option value="AB-positive">AB+</option>
+                                <option value="AB-negative">AB-</option>
+                            </select>
+                        </td>
+
+                    </tr>
+                    
+                    <!-- Hobbies -->
+                    
+                    <tr>
+                        <td>HOBBIES <br /><br /></td>
+                    
+                        <td>
+                            Drawing
+                            <input type="checkbox" name="Hobby_Drawing" value="Drawing" />
+                            Singing
+                            <input type="checkbox" name="Hobby_Singing" value="Singing" />
+                            Dancing
+                            <input type="checkbox" name="Hobby_Dancing" value="Dancing" />
+                            Sketching
+                            <input type="checkbox" name="Hobby_Cooking" value="Cooking" />
+                            <br />
+                            Others
+                            <input type="checkbox" name="Hobby_Other" value="Other">
+                            <input type="text" name="Other_Hobby" maxlength="30" />
+                        </td>
+                    </tr>
+
+                    <!-- Department -->
+                    <tr>
+                        <td>DEPARTMENT</td>
+                        <td>
+                            <input type="text" name="Department" maxlength="30">
+                        </td>
+                    </tr>
+                    
+                    <!-- Course -->
+                    <tr>
+                        <td>COURSE</td>
+                        <td>
+                            <input type="text" name="Course" maxlength="30">
+                        </td>
+                    </tr>
+
+                    <!-- Photo -->
+                    <tr>
+                        <td>PHOTO</td>
+                        <td>
+                            <input type="file" name="Photo">
+                        </td>
+                    </tr>
+                    
+                    <!-- Submit and Reset -->
+                    <tr>
+                        <td colspan="2" align="center">
+                            <input type="submit" value="Submit">
+                            <input type="reset" value="Reset">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
